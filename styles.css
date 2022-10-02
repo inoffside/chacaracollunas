@@ -1,0 +1,30 @@
+#hui {
+	height: 300px;
+}
+#alug {
+	background-color: #192436;
+	z-index: 1; 
+	max-width: 15%;
+}
+#alug:hover {
+	background-color:blue;
+	
+}
+#footlog {
+	width: 40px;
+}
+#footlog:hover {
+	background-color: blue;
+	border-radius: 10px;
+}
+#demo {
+	color: aqua;
+}
+.carousel-caption>h3,p {
+	color: white;
+}
+@media only screen and (max-width: 768px) { 
+	#hui {
+	height: 100px	;
+	}
+ }
