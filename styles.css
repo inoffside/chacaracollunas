@@ -23,8 +23,44 @@
 .carousel-caption>h3,p {
 	color: white;
 }
+#qr_code>p {
+	color: #192436;
+}
+.carousel-item>img {
+	margin: auto;
+}
+#butwa {
+	display: none;
+}
+.btn-group>a {
+	background-color: #192436;
+	border-color: #192436;
+}
 @media only screen and (max-width: 768px) { 
 	#hui {
 	height: 100px	;
+	}
+	#qr_code {
+	display: none;
+	}
+	#butwa {
+		display: block;
+	}
+	#alug {
+		display: none;
+	}
+	#buttons {
+	
+		display: grid;
+		max-width: 50%;
+		margin: auto;
+
+	}
+	#buttons>a {
+		font-size: small;
+		border-radius: 4px;
+	}
+	.carousel-item>img {
+		width: 100%;
 	}
  }
